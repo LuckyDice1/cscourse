@@ -29,3 +29,8 @@ two_squared = 2**2
 print(two_squared) # 4
 
 # FOR MORE ABOUT OPERATORS PLEASE LOOK AT THE CHEATSHEET
+
+# Ignore this, if you want to know what this means look at this
+# --> https://www.freecodecamp.org/news/if-name-main-python-example/
+if __name__ == '__main__':
+    ...  # ... is the same as 'pass'
