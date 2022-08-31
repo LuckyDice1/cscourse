@@ -26,7 +26,7 @@ elif decision == 2:
     num = int(input("Input your integer: "))
     print(integer_to_binary(num))
 elif decision == 3:
-    ...
+    print("Work In Progress")
 
     
         
