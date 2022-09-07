@@ -1,4 +1,4 @@
-# CSCI 111 (Java) and 256 (Python) test
+# CSCI 111 (Java) and 256 (Python)
 
 Lets pass together
 
