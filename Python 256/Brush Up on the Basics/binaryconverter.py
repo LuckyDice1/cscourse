@@ -26,7 +26,7 @@ def binary_to_hex(num : str):
         if (i) % 4 == 0 and binary_to_integer(str(num)[i-4: i]) != 0:
             #print(result, i)
             new_num = binary_to_integer(str(num)[i-4: i])
-            print(new_num, str(num)[i-4: i], i-4, i)
+            #print(new_num, str(num)[i-4: i], i-4, i)
             if new_num > 9:
                 result += hex_dict[new_num]
             else:
@@ -40,7 +40,7 @@ def hex_to_binary(num : str):
     for idx, i in enumerate(reversed(num.upper())):
         if i in hex_dict.keys():
             integer += hex_dict[i]*(16**idx)
-            print(hex_dict[i], i, idx, integer)
+            #print(hex_dict[i], i, idx, integer)
         else:
             integer += int(i)*(16**idx)
     return integer_to_binary(integer)
@@ -63,5 +63,6 @@ elif decision == 4:
 
     
         
+
 
 
