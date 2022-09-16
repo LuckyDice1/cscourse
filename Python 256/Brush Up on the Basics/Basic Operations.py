@@ -1,5 +1,8 @@
 # Normal symbols like +, -, *, / do as you'd think
 
+import math
+
+
 sum = 8+8
 print(sum) # 16
 
