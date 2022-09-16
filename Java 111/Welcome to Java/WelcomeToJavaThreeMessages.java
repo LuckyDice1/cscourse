@@ -1,5 +1,3 @@
-import javax.sound.midi.Soundbank;
-
 public class WelcomeToJavaThreeMessages {
     public static void main(String[] args) {
         System.out.println("Some String 1");
