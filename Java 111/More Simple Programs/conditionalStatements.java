@@ -1,13 +1,12 @@
 import java.util.Scanner;
+import java.util.Random;
 
 public class conditionalStatements {
     public static void main(String[] args) {
-        double grade;
-        Scanner input = new Scanner(System.in);
-        System.out.println("Enter your grade: ");
-        grade = input.nextDouble();
-        input.close();
-
+        int grade;
+        Random rand = new Random();
+        grade = rand.nextInt(0, 100);
+        System.out.println(grade);
         if (grade >= 90.0) {
             System.out.println("Grade is an A");
         } else if (grade >= 80.0) {
