@@ -59,10 +59,3 @@ elif decision == 3:
 elif decision == 4:
     num = input("Input your Hexadecimal value: ")
     print(hex_to_binary(num))
-
-
-    
-        
-
-
-
