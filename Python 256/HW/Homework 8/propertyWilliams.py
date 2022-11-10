@@ -11,19 +11,21 @@
     Program Description: Return assessment value and tax value given the property value
 '''
 
+# Main Function
 def main():
-    property_value = float(input("Enter the actual value of your property: "))
+    property_value = float(input("Enter the actual value of your property: ")) # Get Property Value
     
-    assessment_value = calcAsmt(property_value)
-    tax = calcTax(assessment_value)
+    assessment_value = calcAsmt(property_value) # Get Assessment Value
+    tax = calcTax(assessment_value) # Get Property Tax
     print(f"\nAssessment value of the property: ${assessment_value:.2f}\n" \
           f"Property tax: ${tax:.2f}")
 
     
-    
+# Calculate Assessment Value
 def calcAsmt(pvalue:float):
     return pvalue * .6
-    
+
+#Calculate Property Tax
 def calcTax(avalue:float):
     return .72 * (avalue // 100)
     
